@@ -1,8 +1,76 @@
-/* add css styles here (optional) */
+:root {
+  --white: #fff;
+  --grey: #aaa;
+  --grey-light: #e9e9ea;
+  --grey-dark: #555;
+  --red: rgb(242, 95, 88);
+  --yellow: rgb(251, 190, 60);
+  --green: rgb(88, 203, 66);
+}
 
-.test {
-  display: inline-block;
-  margin: 2em auto;
-  border: 2px solid #000;
-  font-size: 2em;
+.browser-frame {
+  border: 2px solid var(--grey-light);
+  border-radius: 5px;
+}
+.browser-frame__top {
+  background: var(--grey-light);
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  box-sizing: border-box;
+}
+.browser-frame--bottom-crop {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.browser-frame__button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+.browser-frame__button--red {
+  background: var(--red);
+}
+.browser-frame__button--yellow {
+  background: var(--yellow);
+}
+.browser-frame__button--green {
+  background: var(--green);
+}
+.browser-frame__address {
+  background: var(--white);
+  height: 26px;
+  border-radius: 13px;
+  line-height: 26px;
+  font-size: 14px;
+  color: var(--grey-dark);
+  flex-grow: 1;
+  margin-left: 8px;
+  margin-right: 15px;
+  padding: 0 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.browser-frame__burger {
+  width: 17px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 16px;
+  flex-shrink: 0;
+}
+.browser-frame__burger-line {
+  height: 3px;
+  background: var(--grey);
+}
+.browser-frame__body {
+  display: flex;
+  flex-direction: column;
 }
