@@ -42,6 +42,7 @@
   background: var(--green);
 }
 .browser-frame__address {
+  text-align: left;
   background: var(--white);
   height: 26px;
   border-radius: 13px;
