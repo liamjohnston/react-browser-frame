@@ -16,6 +16,8 @@ Stick whatever you like inside a `<BrowserFrame>` and it will render as children
 
 ### Image example
 
+![Image example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474968/image_zkt042.png)
+
 ```jsx
 import React from "react";
 import BrowserFrame from "react-browser-frame";
@@ -31,6 +33,8 @@ export default () => (
 
 ### Text content example
 
+![Text content example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474966/text_zojzpv.png)
+
 ```jsx
 export default () => (
   <BrowserFrame url="https://example.biz" padding="30px 20px">
@@ -39,7 +43,9 @@ export default () => (
 );
 ```
 
-### iFrame example
+### Iframe example
+
+![Iframe example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474967/iframe_qcknzd.png)
 
 ```jsx
 const iframeSrc =
