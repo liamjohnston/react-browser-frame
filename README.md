@@ -12,21 +12,11 @@ npm install --save react-browser-frame
 
 ## Usage
 
-Stick whatever you like inside a `<BrowserFrame>` and it will render as children props.
+Stick whatever you like inside a `<BrowserFrame>` and it will render as children props. The BrowserFrame component will be 100% as wide as its parent, and as high as the content you pass in to it.
 
-### Text content example
+## Examples
 
-![Text content example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474966/text_zojzpv.png)
-
-```jsx
-export default () => (
-  <BrowserFrame url="https://example.biz" padding="30px 20px">
-    <p>It was the best of times, it was the blurst of times...</p>
-  </BrowserFrame>
-);
-```
-
-### Image example
+### An image
 
 ![Image example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474968/image_zkt042.png)
 
@@ -43,7 +33,19 @@ export default () => (
 );
 ```
 
-### Iframe example
+### Text content
+
+![Text content example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474966/text_zojzpv.png)
+
+```jsx
+export default () => (
+  <BrowserFrame url="https://example.biz" padding="30px 20px">
+    <p>It was the best of times, it was the blurst of times...</p>
+  </BrowserFrame>
+);
+```
+
+### An iframe
 
 ![Iframe example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474967/iframe_qcknzd.png)
 
