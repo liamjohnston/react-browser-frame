@@ -7,7 +7,11 @@ Typescript-friendly.
 ## Install
 
 ```bash
-npm install --save react-browser-frame
+npm install react-browser-frame
+
+or
+
+yarn add react-browser-frame
 ```
 
 ## Usage
