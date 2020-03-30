@@ -1,6 +1,6 @@
 {
   "name": "react-browser-frame",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Zhoozh up your mockups",
   "author": "liamjohnston",
   "license": "MIT",
@@ -36,6 +36,7 @@
     "babel-runtime": "^6.26.0",
     "cross-env": "^5.1.4",
     "gh-pages": "^1.2.0",
+    "postcss-custom-properties": "^9.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts-ts": "^2.16.0",

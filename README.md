@@ -14,6 +14,18 @@ npm install --save react-browser-frame
 
 Stick whatever you like inside a `<BrowserFrame>` and it will render as children props.
 
+### Text content example
+
+![Text content example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474966/text_zojzpv.png)
+
+```jsx
+export default () => (
+  <BrowserFrame url="https://example.biz" padding="30px 20px">
+    <p>It was the best of times, it was the blurst of times...</p>
+  </BrowserFrame>
+);
+```
+
 ### Image example
 
 ![Image example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474968/image_zkt042.png)
@@ -25,20 +37,8 @@ import BrowserFrame from "react-browser-frame";
 import myImg from "./img/doge.jpg";
 
 export default () => (
-  <BrowserFrame url="https://doge.biz">
+  <BrowserFrame url="http://zombo.com">
     <img src={myImg} alt="A handsome doggo" />
-  </BrowserFrame>
-);
-```
-
-### Text content example
-
-![Text content example](https://res.cloudinary.com/diouve9dy/image/upload/v1585474966/text_zojzpv.png)
-
-```jsx
-export default () => (
-  <BrowserFrame url="https://example.biz" padding="30px 20px">
-    <p>It was the best of times, it was the blurst of times...</p>
   </BrowserFrame>
 );
 ```
@@ -73,7 +73,7 @@ export default () => (
 - **padding** (optional, `string`): Puts padding around your supplied content, as a CSS string, e.g. `"20px"` or `"15px 30px"` etc.
 - **???:** What else would you like to see? Dark mode? Other styles? Raise a PR or flick me a note :)
 
-Styles blatantly copied from the browser mockup in Docusaurus v2!
+Styles partially copied from the browser mockup in Docusaurus v2 😅
 
 ## License
 

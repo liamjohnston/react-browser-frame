@@ -1,5 +1,5 @@
 import * as React from "react";
-import styles from "./styles.css";
+import "./styles.css";
 
 export type Props = {
   url?: string;
@@ -8,39 +8,24 @@ export type Props = {
 };
 
 export default ({ url, padding, children }: Props) => (
-  <div className={styles["browser-frame"]}>
-    <div className={styles["browser-frame__top"]}>
-      <div
-        className={[
-          styles["browser-frame__button"],
-          styles["browser-frame__button--red"]
-        ].join(" ")}
-      />
-      <div
-        className={[
-          styles["browser-frame__button"],
-          styles["browser-frame__button--yellow"]
-        ].join(" ")}
-      />
-      <div
-        className={[
-          styles["browser-frame__button"],
-          styles["browser-frame__button--green"]
-        ].join(" ")}
-      />
+  <div className="browser-frame">
+    <div className="browser-frame__top">
+      <div className="browser-frame__button browser-frame__button--red" />
+      <div className="browser-frame__button browser-frame__button--yellow" />
+      <div className="browser-frame__button browser-frame__button--green" />
       {url && (
-        <div className={styles["browser-frame__address"]} aria-hidden>
+        <div className="browser-frame__address" aria-hidden>
           {url}
         </div>
       )}
-      <div className={styles["browser-frame__burger"]}>
-        <span className={styles["browser-frame__burger-line"]} />
-        <span className={styles["browser-frame__burger-line"]} />
-        <span className={styles["browser-frame__burger-line"]} />
+      <div className="browser-frame__burger">
+        <span className="browser-frame__burger-line" />
+        <span className="browser-frame__burger-line" />
+        <span className="browser-frame__burger-line" />
       </div>
     </div>
     <div
-      className={styles["browser-frame__body"]}
+      className="browser-frame__body"
       style={{ padding: padding ? padding : "" }}
     >
       {children}
