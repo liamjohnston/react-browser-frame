@@ -2,7 +2,7 @@
 
 Zhoozh up your content with this responsive browser frame mockup.
 
-[![NPM](https://img.shields.io/npm/v/react-browser-frame.svg)](https://www.npmjs.com/package/react-browser-frame) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+Typescript-friendly.
 
 ## Install
 
