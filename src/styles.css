@@ -71,7 +71,3 @@
   height: 3px;
   background: var(--grey);
 }
-.browser-frame__body {
-  display: flex;
-  flex-direction: column;
-}

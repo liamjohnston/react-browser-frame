@@ -77,7 +77,7 @@ export default () => (
 
 - **url** (optional, `string`): Shows the address bar with your specified string.
 - **padding** (optional, `string`): Puts padding around your supplied content, as a CSS string, e.g. `"20px"` or `"15px 30px"` etc.
-- **???:** What else would you like to see? Dark mode? Other styles? Raise a PR or flick me a note :)
+- **???:** What else would you like to see? Dark mode? Other styles n' props? Raise a PR or flick me a note :)
 
 Styles partially copied from the browser mockup in Docusaurus v2 😅
 
